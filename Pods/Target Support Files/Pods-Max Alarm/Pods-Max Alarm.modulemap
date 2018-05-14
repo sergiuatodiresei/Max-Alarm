@@ -1,0 +1,6 @@
+framework module Pods_Max_Alarm {
+  umbrella header "Pods-Max Alarm-umbrella.h"
+
+  export *
+  module * { export * }
+}

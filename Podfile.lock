@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Solar (2.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Solar (~> 2.1)
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
+
+PODFILE CHECKSUM: bb3920adadcf14b33d6f08f569c0fcdc0bec06b0
+
+COCOAPODS: 1.2.0

@@ -8,20 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		D515FE5620A824600027274E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE5520A824600027274E /* AppDelegate.swift */; };
-		D515FE5820A824600027274E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE5720A824600027274E /* ViewController.swift */; };
 		D515FE5B20A824600027274E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D515FE5920A824600027274E /* Main.storyboard */; };
 		D515FE5D20A824600027274E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D515FE5C20A824600027274E /* Assets.xcassets */; };
 		D515FE6020A824600027274E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D515FE5E20A824600027274E /* LaunchScreen.storyboard */; };
+		D515FE6920A824A10027274E /* AlarmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE6820A824A10027274E /* AlarmsTableViewController.swift */; };
+		D515FE6C20A824F10027274E /* AddEditAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE6B20A824F10027274E /* AddEditAlarmViewController.swift */; };
+		D515FE6E20A825180027274E /* RepeatAlarmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE6D20A825180027274E /* RepeatAlarmTableViewController.swift */; };
+		D515FE7020A825480027274E /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE6F20A825480027274E /* LabelViewController.swift */; };
+		D515FE7220A825CF0027274E /* SoundTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE7120A825CF0027274E /* SoundTableViewController.swift */; };
+		D515FE7520A826020027274E /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE7420A826020027274E /* Alarm.swift */; };
+		D515FE7720A8261C0027274E /* AlarmsScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE7620A8261C0027274E /* AlarmsScheduler.swift */; };
+		D515FE7A20A826450027274E /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE7920A826450027274E /* AlarmTableViewCell.swift */; };
+		D515FE7C20A826620027274E /* TableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE7B20A826620027274E /* TableViewHelper.swift */; };
+		D515FE7F20A826A40027274E /* NotificationsName+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE7E20A826A40027274E /* NotificationsName+Extensions.swift */; };
+		D515FE8420A826DD0027274E /* watermelon_ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D515FE8120A826DD0027274E /* watermelon_ring.mp3 */; };
+		D515FE8520A826DD0027274E /* apple_ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D515FE8220A826DD0027274E /* apple_ring.mp3 */; };
+		D515FE8620A826DD0027274E /* pineapple_ring.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D515FE8320A826DD0027274E /* pineapple_ring.mp3 */; };
+		D515FE8920A829ED0027274E /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE8820A829ED0027274E /* Requests.swift */; };
+		D515FE8B20A855140027274E /* Conectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D515FE8A20A855140027274E /* Conectivity.swift */; };
+		E3B72607BCCB9E7D2C951B4A /* Pods_Max_Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2343235513D648D2841A84 /* Pods_Max_Alarm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE2343235513D648D2841A84 /* Pods_Max_Alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Max_Alarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC55B96FA8D61300E3D44F5 /* Pods-Max Alarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Max Alarm.release.xcconfig"; path = "Pods/Target Support Files/Pods-Max Alarm/Pods-Max Alarm.release.xcconfig"; sourceTree = "<group>"; };
+		D133CC32BCAE90670944B473 /* Pods-Max Alarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Max Alarm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Max Alarm/Pods-Max Alarm.debug.xcconfig"; sourceTree = "<group>"; };
 		D515FE5220A824600027274E /* Max Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Max Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D515FE5520A824600027274E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D515FE5720A824600027274E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D515FE5A20A824600027274E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D515FE5C20A824600027274E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D515FE5F20A824600027274E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D515FE6120A824600027274E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D515FE6820A824A10027274E /* AlarmsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsTableViewController.swift; sourceTree = "<group>"; };
+		D515FE6B20A824F10027274E /* AddEditAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmViewController.swift; sourceTree = "<group>"; };
+		D515FE6D20A825180027274E /* RepeatAlarmTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatAlarmTableViewController.swift; sourceTree = "<group>"; };
+		D515FE6F20A825480027274E /* LabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
+		D515FE7120A825CF0027274E /* SoundTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTableViewController.swift; sourceTree = "<group>"; };
+		D515FE7420A826020027274E /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		D515FE7620A8261C0027274E /* AlarmsScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsScheduler.swift; sourceTree = "<group>"; };
+		D515FE7920A826450027274E /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		D515FE7B20A826620027274E /* TableViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHelper.swift; sourceTree = "<group>"; };
+		D515FE7E20A826A40027274E /* NotificationsName+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationsName+Extensions.swift"; sourceTree = "<group>"; };
+		D515FE8120A826DD0027274E /* watermelon_ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = watermelon_ring.mp3; sourceTree = "<group>"; };
+		D515FE8220A826DD0027274E /* apple_ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apple_ring.mp3; sourceTree = "<group>"; };
+		D515FE8320A826DD0027274E /* pineapple_ring.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pineapple_ring.mp3; sourceTree = "<group>"; };
+		D515FE8820A829ED0027274E /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		D515FE8A20A855140027274E /* Conectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conectivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3B72607BCCB9E7D2C951B4A /* Pods_Max_Alarm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61071FC503CB78C82E48F617 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D133CC32BCAE90670944B473 /* Pods-Max Alarm.debug.xcconfig */,
+				CAC55B96FA8D61300E3D44F5 /* Pods-Max Alarm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9093CC0FCBC9EE57F6AC4C4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE2343235513D648D2841A84 /* Pods_Max_Alarm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D515FE4920A824600027274E = {
 			isa = PBXGroup;
 			children = (
 				D515FE5420A824600027274E /* Max Alarm */,
 				D515FE5320A824600027274E /* Products */,
+				61071FC503CB78C82E48F617 /* Pods */,
+				9093CC0FCBC9EE57F6AC4C4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +106,84 @@
 		D515FE5420A824600027274E /* Max Alarm */ = {
 			isa = PBXGroup;
 			children = (
+				D515FE6720A824870027274E /* Controllers */,
+				D515FE7320A825EF0027274E /* Models */,
+				D515FE7820A826330027274E /* Views */,
+				D515FE8720A829CC0027274E /* Servicies */,
+				D515FE7D20A8268A0027274E /* Extensions */,
+				D515FE8020A826C50027274E /* Ringtones */,
 				D515FE5520A824600027274E /* AppDelegate.swift */,
-				D515FE5720A824600027274E /* ViewController.swift */,
 				D515FE5920A824600027274E /* Main.storyboard */,
 				D515FE5C20A824600027274E /* Assets.xcassets */,
 				D515FE5E20A824600027274E /* LaunchScreen.storyboard */,
 				D515FE6120A824600027274E /* Info.plist */,
 			);
 			path = "Max Alarm";
+			sourceTree = "<group>";
+		};
+		D515FE6720A824870027274E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D515FE6820A824A10027274E /* AlarmsTableViewController.swift */,
+				D515FE6A20A824B60027274E /* AddEditAlarm */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D515FE6A20A824B60027274E /* AddEditAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				D515FE6B20A824F10027274E /* AddEditAlarmViewController.swift */,
+				D515FE6D20A825180027274E /* RepeatAlarmTableViewController.swift */,
+				D515FE6F20A825480027274E /* LabelViewController.swift */,
+				D515FE7120A825CF0027274E /* SoundTableViewController.swift */,
+			);
+			path = AddEditAlarm;
+			sourceTree = "<group>";
+		};
+		D515FE7320A825EF0027274E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D515FE7420A826020027274E /* Alarm.swift */,
+				D515FE7620A8261C0027274E /* AlarmsScheduler.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D515FE7820A826330027274E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D515FE7920A826450027274E /* AlarmTableViewCell.swift */,
+				D515FE7B20A826620027274E /* TableViewHelper.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D515FE7D20A8268A0027274E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D515FE7E20A826A40027274E /* NotificationsName+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D515FE8020A826C50027274E /* Ringtones */ = {
+			isa = PBXGroup;
+			children = (
+				D515FE8220A826DD0027274E /* apple_ring.mp3 */,
+				D515FE8320A826DD0027274E /* pineapple_ring.mp3 */,
+				D515FE8120A826DD0027274E /* watermelon_ring.mp3 */,
+			);
+			path = Ringtones;
+			sourceTree = "<group>";
+		};
+		D515FE8720A829CC0027274E /* Servicies */ = {
+			isa = PBXGroup;
+			children = (
+				D515FE8820A829ED0027274E /* Requests.swift */,
+				D515FE8A20A855140027274E /* Conectivity.swift */,
+			);
+			path = Servicies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D515FE6420A824600027274E /* Build configuration list for PBXNativeTarget "Max Alarm" */;
 			buildPhases = (
+				8ED8CFEE27A6172163AF326B /* [CP] Check Pods Manifest.lock */,
 				D515FE4E20A824600027274E /* Sources */,
 				D515FE4F20A824600027274E /* Frameworks */,
 				D515FE5020A824600027274E /* Resources */,
+				76F82109C0FA37235798A4B1 /* [CP] Embed Pods Frameworks */,
+				7C813FDB2B5914C503792EA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +249,82 @@
 			buildActionMask = 2147483647;
 			files = (
 				D515FE6020A824600027274E /* LaunchScreen.storyboard in Resources */,
+				D515FE8620A826DD0027274E /* pineapple_ring.mp3 in Resources */,
 				D515FE5D20A824600027274E /* Assets.xcassets in Resources */,
 				D515FE5B20A824600027274E /* Main.storyboard in Resources */,
+				D515FE8520A826DD0027274E /* apple_ring.mp3 in Resources */,
+				D515FE8420A826DD0027274E /* watermelon_ring.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76F82109C0FA37235798A4B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Max Alarm/Pods-Max Alarm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C813FDB2B5914C503792EA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Max Alarm/Pods-Max Alarm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED8CFEE27A6172163AF326B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D515FE4E20A824600027274E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D515FE5820A824600027274E /* ViewController.swift in Sources */,
+				D515FE7C20A826620027274E /* TableViewHelper.swift in Sources */,
+				D515FE6C20A824F10027274E /* AddEditAlarmViewController.swift in Sources */,
+				D515FE6E20A825180027274E /* RepeatAlarmTableViewController.swift in Sources */,
+				D515FE7520A826020027274E /* Alarm.swift in Sources */,
+				D515FE6920A824A10027274E /* AlarmsTableViewController.swift in Sources */,
+				D515FE7A20A826450027274E /* AlarmTableViewCell.swift in Sources */,
+				D515FE7F20A826A40027274E /* NotificationsName+Extensions.swift in Sources */,
 				D515FE5620A824600027274E /* AppDelegate.swift in Sources */,
+				D515FE7020A825480027274E /* LabelViewController.swift in Sources */,
+				D515FE8920A829ED0027274E /* Requests.swift in Sources */,
+				D515FE8B20A855140027274E /* Conectivity.swift in Sources */,
+				D515FE7720A8261C0027274E /* AlarmsScheduler.swift in Sources */,
+				D515FE7220A825CF0027274E /* SoundTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +459,7 @@
 		};
 		D515FE6520A824600027274E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D133CC32BCAE90670944B473 /* Pods-Max Alarm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +475,7 @@
 		};
 		D515FE6620A824600027274E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC55B96FA8D61300E3D44F5 /* Pods-Max Alarm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
